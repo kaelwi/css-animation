@@ -1,0 +1,23 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+div {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: auto;
+    background-color: red;
+}
+
+#onevent {
+    transition: background-color 3s ;
+}
