@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    border: 3px black solid;
+    margin: 20px;
+}
+
+#first {
+    transform: rotate(30deg) scale(130%);
+}
+
+#second {
+    transform: translate(150px);
+}
+
+#third {
+    transform: scale(75%) skew(50deg) rotate(45deg) translate(-200px, 50px);
+}

@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    border: 3px black solid;
+    margin: 20px;
+}
+
+.rotate {
+    border-top: 5px red solid;
+}
+
+.rotate-deg {
+    transform: rotate(45deg);
+}
+
+.rotate-turn {
+    transform: rotate(0.5turn);
+}
+
+.rotate-rad {
+    transform: rotate(-2rad);
+}
+
+.scale-x {
+    transform: scaleX(1.5);
+}
+
+.scale-y {
+    transform: scaleY(0.5);
+}
+
+.scale {
+    transform: scale(1.5);
+}
+
+.skew-x {
+    transform: skew(30deg);
+}
+
+.skew-y {
+    transform: skewY(30deg);
+}
+
+.skew-xy {
+    transform: skew(30deg, 30deg);
+}
+
+.skew {
+    transform: skew(30deg);
+}
+
+.inner {
+    width: 30%;
+    height: 30%;
+    border: 3px solid red;
+    margin: 20px auto;
+}
+
+.translate-x {
+    transform: translateX(75%);
+}
+
+.translate-y {
+    transform: translateY(30px);
+}
+
+.translate-xy {
+    transform: translate(-75%, 20px);
+}
+
