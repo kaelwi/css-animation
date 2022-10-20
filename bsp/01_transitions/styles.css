@@ -21,3 +21,19 @@ div {
 #onevent {
     transition: background-color 3s ;
 }
+
+.color-change {
+    transition: background-color ease-out 2s;
+}
+
+.color-change:hover {
+    background-color: blue;
+}
+
+.border-change {
+    transition: border-radius 2s;
+}
+
+.border-change:hover {
+    border-radius: 0;
+}
