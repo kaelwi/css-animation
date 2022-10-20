@@ -32,3 +32,26 @@ h1 {
 #cont-1 {
     opacity: 0;
 }
+
+.hello {
+    animation: hello 3s linear forwards;
+}
+
+@keyframes hello {
+    from {
+        transform: rotate(0deg) scale(0);
+        color: rgb(189, 221, 10);
+    }
+    
+    75% {
+        opacity: 50%;
+        transform: rotate(810deg) scale(3);
+        color: rgb(51, 240, 45);
+    }
+    
+    to {
+        opacity: 100%;
+        transform: rotate(1080deg) scale(1);
+        color: rgb(14, 139, 31);
+    }
+}
